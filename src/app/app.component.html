@@ -1,0 +1,13 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+<h1>ecco chi è questa persona: {{persona}}</h1>
+<br>
+<p>  
+Server2 is also working fine.  
+</p>  
+<button (click)="clickButton()" [disabled]=allowNewServer>click</button>
+<h3>String nterpolation: {{allowNewServer}}</h3>
+
+<p>String interpolation: {{persona}}</p>
+<label for="btn">two-way Porperty binding: </label>
+<input type="text" [(ngModel)]=allowNewServer name="btn">
